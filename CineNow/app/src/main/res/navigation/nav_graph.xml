@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cinenow.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/filmesFragment"
+        android:name="com.example.cinenow.FilmesFragment"
+        android:label="Filmes" />
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.example.cinenow.FavoritosFragment"
+        android:label="Favoritos" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.cinenow.PerfilFragment"
+        android:label="Perfil" />
+    <fragment
+        android:id="@+id/detalhesFragment"
+        android:name="com.example.cinenow.DetalhesFragment"
+        android:label="Detalhes" />
+</navigation>
